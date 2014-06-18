@@ -1,0 +1,192 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	border:0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	vertical-align: baseline;	
+}
+
+html { 
+		font-size: 100%; 
+		height: 100%; 
+}
+
+body {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #333333;
+                font-size: 14px;
+}
+a { 
+	text-decoration:none; 
+	color:#333333; 
+}
+a:hover	{
+		text-decoration:none;
+}
+
+ul {
+	display: block;
+}
+
+ul li {
+	list-style:none;
+}
+
+div {
+		display:block;
+		
+		}     
+		
+#clear {
+	clear:both;
+}		           
+
+#body-wrapper {
+                /*background: url('../images/bg-radial-gradient.gif') fixed 230px top no-repeat;*/
+                }  
+                
+/********************************      header      ********************************/
+#header {
+				width:100%;
+                height: 50px;
+                background-color:#0e0e0e;
+                }
+#header h1 {
+	float:left;
+	font-size:20px;
+	padding:0 20px;
+}
+                
+
+#header .navbar {
+		width:80%;
+		height:50px;
+		line-height:50px;
+		color:#999999;
+		margin: 0 auto;
+		color: #FFFFFF;
+}
+
+.navbar li {
+	float:left;
+	font-size:15px;
+	padding:0 15px;
+}
+
+.navbar a {
+	color:#999999;
+}
+.navbar a:hover {
+	color:#FFFFFF;
+}
+
+
+#header .breadcrumbs {
+	width:80%;
+	height:30px;
+	line-height: 30px;
+	background-color: #f5f5f5;
+	margin: 0 auto;
+	-webkit-border-radius: 4px;
+	padding-left:8px;
+}
+#header .breadcrumbs li {
+	float:left;
+}
+#header .breadcrumbs a {
+	color:#51a351;
+}
+#header .breadcrumbs .active {
+	color: #ccc;
+}
+#header .breadcrumbs .divider {
+	color:#ccc;
+	padding: 0 5px;
+}
+/********************************      header      ********************************/
+
+/********************************      main content      ********************************/
+
+#main-content {
+                width:80%;
+                height:auto;
+                min-height:200px;
+                margin: 30px auto 30px auto;
+                }
+                
+                
+#main-content .main {
+	border: 1px solid #dddddd;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;	
+}                
+
+#main-content table {
+	width: 100%;
+	border-collapse: collapse;
+}      
+
+#main-content thead {
+	background-color: #F5F5F5;
+}
+
+#main-content .empty {
+	text-align:center;
+	
+}
+#main-content th, #main-content td {
+	height:35px;
+	line-height:35px;
+	text-align: left;
+	padding-left:8px;
+	display: table-cell;
+}
+ .table-bordered td {
+	border-top:1px solid #dddddd;
+}               
+
+.biaoti-img {
+	width:40px;
+	height:30px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+/********************************     main content      ********************************/
+
+/********************************      footer      ********************************/
+
+#footer {
+				width:100%;
+                text-align: center;
+                padding:30px 0 ;
+                margin-top:70px;
+                border-top:1px solid #e5e5e5;
+                background-color: #f5f5f5
+                }
+/********************************     footer      ********************************/
+
+/********************************page********************************/
+#page {
+	text-align:right;
+	margin:20px 0;
+}
+
+#page a {
+	padding:5px 8px;
+	border:1px solid #dddddd;
+	margin-left:4px;	
+}
+#page .page_curr{
+	border:0;
+	background-color:#d8e8f5;
+}
+#page .page_bur:hover {
+	background-color:#d8e8f5;
+}
+/********************************page********************************/
+
